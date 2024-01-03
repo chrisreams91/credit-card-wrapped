@@ -9,16 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@nivo/bar": "^0.84.0",
+    "@nivo/calendar": "^0.84.0",
+    "@nivo/core": "^0.84.0",
+    "@nivo/pie": "^0.84.0",
+    "@nivo/tooltip": "^0.84.0",
+    "@nivo/treemap": "^0.84.0",
+    "framer-motion": "^10.16.16",
+    "fuse.js": "^7.0.0",
+    "lodash": "^4.17.21",
+    "luxon": "^3.4.4",
+    "next": "14.0.4",
+    "papaparse": "^5.4.1",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/lodash": "^4.14.202",
+    "@types/luxon": "^3.3.7",
     "@types/node": "^20",
+    "@types/papaparse": "^5.3.14",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "prettier": "3.1.1",
+    "typescript": "^5"
   }
 }
